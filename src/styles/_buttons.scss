@@ -1,0 +1,29 @@
+.border-bottom {
+  border-bottom: 1px solid var(--color-border-default) !important;
+}
+
+.btn-outline-secondary {
+  border-color: var(--color-border-default);
+  color: var(--color-fg-default);
+
+  &:hover, &:active, &:focus {
+    background-color: transparent;
+    border-color: var(--color-border-default);
+    color: var(--color-fg-default);
+  }
+}
+
+.btn-secondary {
+  border-color: var(--color-border-default);
+  background-color: var(--color-btn-bg);
+  color: var(--color-fg-default);
+
+  &:hover, &:active, &:focus {
+    border-color: var(--color-btn-hover-border);
+    background-color: var(--color-btn-hover-bg);
+  }
+}
+
+.btn-primary {
+  background-color: var(--color-accent-emphasis);
+}

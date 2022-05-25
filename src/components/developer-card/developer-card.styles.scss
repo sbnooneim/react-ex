@@ -1,0 +1,28 @@
+.developer-card {
+  &__index-link {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__avatar {
+    height: 48px;
+  }
+
+  &__nick-link {
+    &:hover {
+      color: var(--color-accent-emphasis);
+    }
+  }
+
+  &__sponsor-icon {
+    transition: transform .15s cubic-bezier(0.2, 0, 0.13, 2);
+    transform: scale(1);
+  }
+
+  &__sponsor-btn:hover &__sponsor-icon {
+    transform: scale(1.1);
+  }
+}

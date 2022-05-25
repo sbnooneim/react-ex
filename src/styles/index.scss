@@ -1,0 +1,53 @@
+@import "~bootstrap/scss/bootstrap";
+
+:root {
+  --bs-secondary-rgb: 22, 27, 34;
+
+  --color-fg-default: #c9d1d9;
+  --color-fg-muted: #8b949e;
+  --color-fg-on-emphasis: #f0f6fc;
+  --color-accent-fg: #58a6ff;
+  --color-severe-fg: #db6d28;
+  --color-sponsors-fg: #db61a2;
+  
+  --color-border-default: #30363d;
+
+  --color-canvas-default: #0d1117;
+  --color-canvas-subtle: #161b22;
+  --color-canvas-overlay: #161b22;
+  --color-accent-emphasis: #1f6feb;
+
+  --color-btn-bg: #21262d;
+  --color-btn-hover-bg: #30363d;
+  --color-btn-hover-border: #8b949e;
+
+  --color-attention-emphasis: #9e6a03;
+  --color-attention-subtle: rgba(187, 128, 9, 0.15);
+
+  --color-danger-emphasis: #9E1C23;
+  --color-danger-subtle: rgba(158, 28, 35, 0.15)
+}
+
+body {
+  background-color: var(--color-canvas-default);
+  color: var(--color-fg-default)
+}
+
+a {
+  color: var(--color-accent-fg);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--color-accent-fg);
+    text-decoration: underline;
+  }
+}
+
+@import "./buttons";
+@import "./card";
+@import "./list-group";
+@import "./text";
+@import "./form";
+@import "./alert";
+@import "./utils";
+@import "./containers";

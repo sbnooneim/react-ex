@@ -1,0 +1,5 @@
+.trend-navigation {
+  &__item:hover.btn-primary {
+    background-color: var(--color-accent-emphasis);
+  }
+}

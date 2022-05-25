@@ -1,0 +1,14 @@
+.list-group {
+  &-item {
+    background-color: var(--color-canvas-overlay);
+    border-color: var(--color-border-default);
+    color: var(--color-fg-default);
+
+    &-action {
+      &:hover, &:focus {
+        color: var(--color-fg-on-emphasis);
+        background-color: var(--color-accent-emphasis);
+      }
+    }
+  }
+}

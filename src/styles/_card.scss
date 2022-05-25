@@ -1,0 +1,11 @@
+.card {
+  border-color: var(--color-border-default);
+
+  &-header {
+    background-color: var(--color-canvas-subtle);
+  }
+
+  &-body {
+    background-color: var(--color-canvas-default);
+  }
+}

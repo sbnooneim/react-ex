@@ -1,0 +1,22 @@
+.search-dropdown {
+  width: 300px;
+  z-index: 9;
+
+  &__list-wrapper {
+    max-height: 400px;
+    overflow: auto;
+
+    .list-group-item {
+      border-top: 0;
+    }
+  }
+
+  &__selector {
+    color: var(--color-fg-muted);
+    transition: color 0.3s ease;
+    
+    &:hover, &--active {
+      color: var(--color-fg-default);
+    }
+  }
+}
